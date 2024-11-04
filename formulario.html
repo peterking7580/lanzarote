@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- titulo -->
+        <title>Islas Canarias</title>
+    <link rel="stylesheet" type="text/css" href="https://www3.gobiernodecanarias.org/educacion/cau_ce/cookies/cookieconsent.min.css"/><script  type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/cookies/cookieconsent.min.js"></script><script type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/cookies/cauce_cookie.js"></script><script type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/estadisticasweb/scripts/piwik-base.js"></script><script type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/estadisticasweb/scripts/piwik-eforma.js"></script></head>
+    <br>
+    <br>
+    <center>
+    <bodystyle="background-color: #CDCDCD">
+<!-- Cabecera resaltada en negrita y con botones-->
+            <h1 style="color: rgb(200, 20, 20); font-family: Helvetica,Arial,sans-serif;">Las Islas Canarias</h1>
+            <nav>
+                <button><a style="color: #157c00; font-family: Helvetica,Arial,sans-serif;" href="#tenerife"><strong>Tenerife</strong> | </a></button>
+                <button><a style="color: #157c00; font-family: Helvetica,Arial,sans-serif;" href="#grancanaria"><strong>Gran Canaria</strong> | </a></button>
+                <button><a style="color: #157c00; font-family: Helvetica,Arial,sans-serif;" href="#lanzarote"><strong>Lanzarote</strong> | </a></button>
+                <button><a style="color: #157c00; font-family: Helvetica,Arial,sans-serif;" href="#fuerteventura"><strong>Fuerteventura</strong> | </a></button>
+                <button><a style="color: #157c00; font-family: Helvetica,Arial,sans-serif;" href="#lapalma"><strong>La Palma</strong> | </a></button>
+                <button><a style="color: #157c00; font-family: Helvetica,Arial,sans-serif;" href="#lagomera"><strong>La Gomera</strong> | </a></button>
+                <button><a style="color: #157c00; font-family: Helvetica,Arial,sans-serif;" href="#elhierro"><strong>El Hierro</strong> | </a></button>
+            </nav>
+        </header>
+        <br>
+        <nav>
+            <button><a style="color: #157c00; font-family: Helvetica,Arial,sans-serif;" href="inicio.html"><strong>Inicio</strong></a></button>
+            <button><a style="color: #157c00; font-family: Helvetica,Arial,sans-serif;" href="puntosinteres.html"><strong>Puntos de Interés</strong></a></button>
+        </nav>
+</header>
+<br>
+<br>
+<hr>
+
+
+
+<h1>Formulario de alta de usuario</h1>
+<form action="/registrardatos.php">
+  <h3>Introduzca sus datos de registro</h3>
+</center>
+<fieldset style="background-color: rgb(211, 211, 211); margin-left: 400px; margin-right: 400px;">
+    <legend>Datos Personales</legend>
+    <label for="nombre">Nombre</label><br>
+    <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre" size="40"><br>
+        <br>
+    <label for="name">Apellidos:</label><br>
+    <input type="text" id="apellidos" name="apellidos" placeholder="Introduce tus Apellidos" size="40"><br>
+        <br>
+    <label for="name">Dni:</label><br>
+    <input type="text" id="Dni" name="Dni" placeholder="Introduce tu Dni"><br>
+        <br>
+    <label for="name">Nacido en:</label><br>
+    <input type="text" id="Nacido" name="Nacido" placeholder="Introduce tu lugar de nacimiento" size="40"><br>
+        <br>
+    <label for="name">Provincia:</label><br>
+    <input type="text" id="Provincia" name="Provincia" placeholder="Introduce tu Provincia" size="40"><br>
+        <br>
+    <label for="name">Fecha de Nacimiento:</label><br>
+    <input type="date" id="Fecha" name="Fecha" placeholder="Introduce tu Fecha de Nacimiento" size="40"><br>
+        <br>
+
+    <!-- Este es un comentario en HTML -->
+
+    <label for="name">Domicilio:</label><br>
+    <select name="Domicilio" id="Domicilio"><br>
+        <option value="Calle">Calle</option>
+        <option value="Callejon">Callejon</option>
+        <option value="Plaza">Plaza</option>
+        <option value="Otro">Otro</option>
+        <option value="Avenida">Avenida</option>
+    </select>
+
+    <input type="text" id="Domicilio" name="Domicilio" placeholder="Introduce tu dirección" size="40"><br>
+        <br>
+    <label for="name">Numero:</label><br>
+    <input type="text" id="Numero" name="Numero" placeholder="Número" size="20"><br>
+        <br>
+    <label for="name">Piso:</label><br>
+    <input type="text" id="Piso" name="Piso" placeholder="Nº Piso" size="20"><br>
+        <br>
+    <label for="name">letra:</label><br>
+    <input type="text" id="letra" name="letra" placeholder="Letra" size="10"><br>
+        <br>
+    <label for="name">Localidad:</label><br>
+    <input type="text" id="Localidad" name="Localidad" placeholder="Introduce tu Localidad" size="40"><br>
+        <br>
+    <label for="name">Provincia:</label><br>
+    <input type="text" id="Provincia" name="Provincia" placeholder="Introduce tu Provincia" size="40"><br>
+     <br>
+    <label for="name">Teléfono:</label><br>
+    <input type="text" id="Teléfono" name="Teléfono" placeholder="Nº de teléfono" size="40"><br>
+        <br>
+
+<!-- Este es un comentario en HTML -->
+
+</fieldset>
+<br>
+<fieldset style="background-color: rgb(211, 211, 211); margin-left: 400px; margin-right: 400px;">
+    <legend>Otros datos de interés</legend>
+
+    <input type="radio" id="islas" name="estudios" value="visitado">
+    <label for="visitado">He visitado las Islas Canarias</label><br>
+
+        <div style="display: inline-block; margin-right: 20px;"></div>
+            <input type="radio" id="islas" name="transporte" value="transportepublico">
+                <label for="transportepublico">He usado transporte público ( que transporte )</label>
+                <input type="text" id="untransporte" name="untransporte" size="40"><br>
+
+        <div style="display: inline-block; margin-right: 20px;"></div>
+            <input type="radio" id="islas" name="transporte" value="vehiculopropio">
+                <label for="vehiculopropio">He usado vehículo propio</label><br>
+
+        <div style="display: inline-block; margin-right: 20px;"></div>
+            <input type="radio" id="islas" name="transporte" value="parteislas">
+                <label for="parteislas">He visitado parte de las Islas ( que Islas )</label>
+                <input type="text" id="visitado" name="visitado" size="40"><br>
+
+        <div style="display: inline-block; margin-right: 20px;"></div>
+             <input type="radio" id="islas" name="transporte" value="todoincluido">
+                <label for="todoincluido">He estado en un todo incluido</label><br>
+
+        <div style="display: inline-block; margin-right: 20px;"></div>
+            <input type="radio" id="islas" name="transporte" value="otros">
+                <label for="otros"> Otros, ( especifique )</label>
+                <input type="text" id="especifique" name="especifique" size="40"><br>
+
+    <input type="radio" id="islas" name="estudios" value="novisitado">
+    <label for="novisitado"> No he visitado las Islas Canarias</label><br>
+   <br>
+</fieldset>
+
+<!-- Este es un comentario en HTML -->
+<br>
+<fieldset style="background-color: rgb(211, 211, 211); margin-left: 400px; margin-right: 400px;">
+    <legend>Preferencias para el viaje</legend>
+    <p>Elija la Isla que quiere visitar en el viaje</p>
+    <label for="name">Seleccione la Isla:</label>
+    <select name="viaje" id="viaje"><br>
+        <option value="null"></option>
+        <option value="lanzarote">Lanzarote</option>
+        <option value="lapalma">La Palma</option>
+        <option value="grancanaria">Gran Canaria</option>
+        <option value="fuerteventura">Fuerteventura</option>
+        <option value="hierro">Hierro</option>
+    </select>
+<!-- con el div consigo hacer columnas en el formulario -->
+    <p>Indique preferencias o requisitos en los siguientes campos:</p>
+    <div style="display: flex;">
+        <div style="margin-right: 20px;">
+            <label for="name">Tipo de Transporte:</label><br>
+            <input type="text" id="Transporte" name="Transporte" size="20"><br>
+                <br>
+            <input type="text" id="Transporte2" name="Transporte2" size="20"><br>
+                <br>    
+        </div>
+
+        <div style="margin-right: 20px;">
+            <label for="name">Restaurantes:</label><br>
+            <input type="text" id="Restaurantes" name="Restaurantes" size="20"><br>
+                <br>
+            <input type="text" id="Restaurantes2" name="Restaurantes2" size="20"><br>
+                <br>
+
+        </div>
+
+        <div>
+            <label for="name">Visitas guiadas:</label><br>
+            <input type="text" id="guiadas" name="guiadas" size="20"><br>
+                <br>
+            <input type="text" id="guiadas" name="guiadas" size="20"><br>
+                <br>
+
+        </div>
+    </div>
+    <label for="vehiculo1"> Marque esta casilla si piensa pagar con visa</label>
+    <input type="checkbox" id="bici" name="bici" value="vehiculos">
+    
+</fieldset>
+<br>
+<!--  Margenes de las cajas de formulario margin-left: 400px; margin-right: 400px; -->
+<fieldset style="background-color: rgb(211, 211, 211); margin-left: 400px; margin-right: 400px;">
+<br>
+    <label for=“mensaje”>Seleccione o indique los Documentos presentados: </label><br>
+<legend>Documentación para el viaje</legend><br>
+<div style="display: flex;">
+    <div style="margin-right: 20px;">
+        <input type="checkbox" id="dni" name="dni" value="documentos">
+        <label for="vehiculo1"> Fotocopia de DNI</label><br>
+    </div>
+    <div>
+        <input type="checkbox" id="pasaporte" name="pasaporte" value="documentos">
+        <label for="vehiculo1"> Fotocopia de Pasaporte</label><br>
+    </div>
+</div>
+<br>
+        <input type="checkbox" id="otrosdocumentos" name="otrosdocumentos" value="documentos">
+        <label for="vehiculo1"> Otros Documentos</label>
+        <input type="text" id="documentosotros" name="documentosotros" size="40"><br>
+    <br>
+
+
+</fieldset>
+<center>
+<br>
+    <input type="submit">
+  </form>
+  <br>
+  <br>
+
+</body>
+<hr>
+<h1 style="color: rgb(0, 0, 0); font-family: Helvetica,Arial,sans-serif;">Puntos de Interés</h1>
+<nav>
+    <button><a style="color: #157c00 font-family: Helvetica,Arial,sans-serif;" href="puntosinteres.html#teide"><strong>El Teide</strong> | </a></button>
+    <button><a style="color: #157c00; font-family: Helvetica,Arial,sans-serif;" href="puntosinteres.html#timanfaya"><strong>Parque Nacional de Timanfaya</strong> | </a></button>
+    <button><a style="color: #157c00; font-family: Helvetica,Arial,sans-serif;" href="puntosinteres.html#maspalomas"><strong>Maspalomas</strong> | </a></button>
+    <button><a style="color: #157c00; font-family: Helvetica,Arial,sans-serif;" href="puntosinteres.html#loro"><strong>Loro Parque</strong> | </a></button>
+    <button><a style="color: #157c00; font-family: Helvetica,Arial,sans-serif;" href="puntosinteres.html#garajonay"><strong>Parque Nacional de Garajonay</strong> | </a></button>
+</nav>
+<hr>
+<!-- Footer -->
+        <footer>
+            <h4>Pedro Rey Varela Todos los derechos reservados</h4>
+        </footer>
+</center>
+</html>
